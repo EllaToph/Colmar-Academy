@@ -339,7 +339,7 @@ font-weight: bolder;
   .block{
     display: none;
   }
-  .listofcourses{
+  .listofcourses {
     display: flex;
     display: flex;
    flex-direction: column;
