@@ -407,9 +407,7 @@ padding-bottom: 11rem;
 .banner2-content{
   display: none;
 }
-.footer-nav a{
-  display: none;
-}
+
 
 }
 /*Terms of Service*/
@@ -439,6 +437,13 @@ flex-grow: 1;
     cursor: auto;
     text-decoration: none;
   }
+  @media only screen and (max-width:700px){
+    .footer-nav a{
+      display: none;
+    }
+
+  }
+  
 
   /*Min width*/
   @media only screen and (min-width:700px){
