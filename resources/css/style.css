@@ -407,7 +407,9 @@ padding-bottom: 11rem;
 .banner2-content{
   display: none;
 }
-
+.footer-nav a{
+  display: none;
+}
 
 }
 /*Terms of Service*/
@@ -451,9 +453,6 @@ flex-grow: 1;
   display: none;
 }
 .Thesis-Vid{
-  display: none;
-}
-.footer-nav a{
   display: none;
 }
 }
