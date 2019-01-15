@@ -76,7 +76,6 @@ font-family: Helvetica;
 }
 .container{
   display: flex;
-max-width: 1050px;
 margin: auto;
 }
 .banner1-content{
@@ -443,7 +442,7 @@ flex-grow: 1;
     }
 
   }
-  
+
 
   /*Min width*/
   @media only screen and (min-width:700px){
