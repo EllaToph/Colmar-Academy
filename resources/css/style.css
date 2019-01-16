@@ -74,7 +74,8 @@ font-family: Helvetica;
 
 /*Main Banner1*/
 .main-banner1{
-  background-color:#b8b2b278;
+  background-color: #052131;
+  border-top: 2px solid yellow;
 }
 .container{
   display: flex;
@@ -90,7 +91,7 @@ padding: 32px 24px;
 
 .Start-here-content{
 
-  color:#525151;
+  color:white;
   font-family: 'Ubuntu', sans-serif;
   padding-left: 3rem;
   padding-right: 1rem;
@@ -118,6 +119,9 @@ padding: 32px 24px;
   font-family: 'Roboto', sans-serif;
   display: block;
 margin-top: 1.6rem;
+}
+.Start-here-content a:hover{
+  color: aqua;
 }
 @media only screen and (max-width:700px){
 
@@ -199,7 +203,7 @@ justify-content: space-between;
   align-items: center;
 }
 .content h2 {
- color: #424242;
+ color: #8a8a8a;
  font-family: 'Open Sans', sans-serif;
  font-size: large;
  font-weight: bolder;
@@ -219,7 +223,8 @@ justify-content: space-between;
   display: flex;
 }
 .Lecture.box {
-  background-color: #efff0038;
+  background-color: #052131;
+  border-top: 2px solid yellow;
 }
 
 img.desktop {
@@ -278,7 +283,7 @@ banner2-content{
 }
 /*6boxesandcontent*/
 .container3{
-background-color:#d3d3d38c;
+background-color:#052131;
 padding-top:2rem;
 padding-left: 4.5rem;
 padding-right: 4.5rem;
@@ -287,7 +292,7 @@ padding-bottom: 2rem;
 }
 
 .Start-learning-content {
-    color: #2b2a2a;
+    color: #ffffff;
     font-size: 2.1rem;
     font-weight: bolder;
     font-family: sans-serif;
@@ -301,6 +306,7 @@ padding-bottom: 2rem;
 height: 16rem;
 margin-bottom: 32px;
 background-color: white;
+padding-bottom: 24px;
 }
 
 .sixpics {
@@ -322,7 +328,6 @@ margin: 0 auto;
 }
 .info h2{
   color: #2b2a2a;
-  padding-top: 16px;
 font-weight: bolder;
 
 }
@@ -371,7 +376,8 @@ font-weight: bold;
 }
 /*Thesis*/
 .Fisma.box{
-  background-color: #efff0045;
+  background-color: #052131;
+  border-top: 2px solid yellow;
  }
 
 .Thesis-exhibit{
