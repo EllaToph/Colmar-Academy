@@ -13,12 +13,15 @@ header{
   width: 100%;
     border-bottom: 2px solid #ffff0052;
 }
-
-.container{
-display: flex;
-justify-content: space-between;
-align-items: center;
+header {
+  position: fixed;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 11px 0 rgba(0, 0, 0, 0.06);
+  top: 0;
 }
+
+
+.container{display: flex;
+  justify-content: space-between;}
 
 .logo{
 padding-left: 1.5rem;
@@ -66,58 +69,55 @@ font-family: Helvetica;
   align-items: center;
   height: 64px;
   justify-content: space-around;
-  background-color: white,
+  background-color: white,;
 }
 
 }
 
 /*Main Banner1*/
 .main-banner1{
-  background-color: #052131;
-  border-top: 2px solid yellow;
+  background-color: #80808070;
+  padding-top: 4rem;
+
 }
 .container{
   display: flex;
 margin: auto;
 }
-.banner1-content{
-width: 60%;
-padding: 32px 24px;
+.banner1-content{width: 100%;
+  padding: 32px 24px;
+  padding-top: 4rem;
 }
+
 .banner1-content img {
-  width:100%
+  width: 100%;
 }
 
-.Start-here-content{
-
-  color:white;
-  font-family: 'Ubuntu', sans-serif;
-  padding-left: 3rem;
-  padding-right: 1rem;
-
-}
+.Start-here-content{color:white;font-family: 'Ubuntu', sans-serif;padding-left: 3rem;padding-right: 1rem;/* align-content: center; */align-self: center;padding-bottom: 3rem;padding-top: 1rem;}
 .Start-here-content h1{
   font-size: 41px;
   margin-bottom: 1.6rem;
   font-weight: bold;
+  color: #053956;
 }
 
 .Start-here-content span{
-  padding-top: 42px;
   padding-bottom: 42px;
   font-size: 22px;
+  color: #169c9c;
 }
 
 .Start-here-content a {
-  background-color: #383838;
-    color: white;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    text-align: center;
-    text-decoration: none;
+  background-color: #ead35b;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
   font-family: 'Roboto', sans-serif;
   display: block;
-margin-top: 1.6rem;
+  margin-top: 1.6rem;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 11px 0 rgba(0, 0, 0, 0.06);
 }
 .Start-here-content a:hover{
   color: aqua;
@@ -127,7 +127,7 @@ margin-top: 1.6rem;
 .main-banner1 .banner1-content{
   width: 100%;
   padding:0px 0px;
-  border-top: 2px solid #ffff00a1;
+
 }
 
 
@@ -153,9 +153,8 @@ margin-top: 1.6rem;
 }
 
 .banner2-content{
-  width: 60%;
-padding: 32px 24px;
-
+  width: 67%;
+  padding: 32px 24px;
 }
 
 .banner2-content img{
@@ -177,8 +176,8 @@ padding: 32px 24px;
   color: gray;
   display: block;
   font-family: 'Roboto', sans-serif;
-font-size: .8rem;
-line-height: 1.1rem;
+  font-size: .8rem;
+  line-height: 1.1rem;
 }
 .banner2-content .Hiring{
  color: black;
@@ -187,22 +186,24 @@ line-height: 1.1rem;
 }
 /*3boxes*/
 .Read-more {
-  /*width: 60%;*/
   border-left: 1px solid #DCDCDC;
   width: 440px;
+  padding-top: 1.8rem;
 }
 .Campus.box {
   border-top: 1px solid #DCDCDC;
   border-bottom: 1px solid #DCDCDC;
+  background-color: #ffb23ae3;
 }
 .box {
   width: 100%;
- display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 11px 0 rgba(0, 0, 0, 0.06);
 }
 .content h2 {
- color: #8a8a8a;
+ color: #2274a5;
  font-family: 'Open Sans', sans-serif;
  font-size: large;
  font-weight: bolder;
@@ -210,21 +211,25 @@ justify-content: space-between;
 .content span {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    color: #169c9c;
-    font-weight: 300;
+    color: #ffffff;
+    font-weight: 900;
   }
   .content a {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
-  color: #12a4dcd1;
+  color: #1affff;
   font-weight: lighter;
   display: flex;
 }
 .Lecture.box {
-  background-color: #052131;
+  background-color: #12a4dcb3;
   border-top: 2px solid yellow;
 }
+.Date.box {
+    background-color: #169c9c;
+}
+
 
 img.desktop {
     padding: 16px;
@@ -245,7 +250,6 @@ img.desktop {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    background-color:#d3d3d31c
 }
 banner2-content{
   display:none
@@ -282,14 +286,14 @@ banner2-content{
 
 }
 /*6boxesandcontent*/
-.container3{
-background-color:#052131;
-padding-top:2rem;
-padding-left: 4.5rem;
-padding-right: 4.5rem;
-padding-bottom: 2rem;
+a:hover {color: #1affff;}
 
-}
+.container3 {
+  background-color: #1b4f6d;
+  padding-top:2rem;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  padding-bottom: 2rem;}
 
 .Start-learning-content {
     color: #ffffff;
@@ -303,10 +307,15 @@ padding-bottom: 2rem;
 
 .block{
   width: 32%;
-height: 16rem;
-margin-bottom: 32px;
-background-color: white;
-padding-bottom: 24px;
+  height: 16rem;
+  margin-bottom: 32px;
+  background-color: #169c9c;
+  padding-bottom: 24px;
+  /* border-radius: 10px; */
+  border-top-left-radius: px;
+  /* background-image: linear-gradient(#1affff, #5096bf); */
+  border-radius: 10px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 11px 0 rgba(0, 0, 0, 0.06);
 }
 
 .sixpics {
@@ -322,7 +331,7 @@ margin: 0 auto;
   width:100%;
 }
 .info {
-  background-color: white;
+  /* background-color: white; */
   font-family: 'Open Sans', sans-serif;
   padding: 16px 16px 24px 16px;
 }
@@ -335,15 +344,15 @@ font-weight: bolder;
   font-size: 15px;
   font-weight: lighter;
   padding-top: 8px;
-  font-weight: 550;
-color: #43baff;
-
+  font-weight: 900;
+  color: #ffb23a;
 }
 .info span{
-  font-weight: 400;
+  font-weight: 800;
   font-size: .8rem;
   line-height: 1.1rem;
-  color: gray;
+  color: #ffffff;
+  /* font-weight: 400; */
 }
 
 @media only screen and (max-width:700px){
@@ -358,17 +367,7 @@ color: #43baff;
     padding-right: 16px;
 
   }
-.listofcourses a{
-
-background-color: #DCDCDC;
-color: #383838;
-text-decoration: none;
-padding: 16px;
-margin-bottom: 8px;
-font-size: 1.4rem;
-font-family: 'Open Sans', sans-serif;
-font-weight: bold;
-}
+.listofcourses a{background-color: #169c9c;color: #ffffff;text-decoration: none;padding: 16px;margin-bottom: 8px;font-size: 1.4rem;font-family: 'Open Sans', sans-serif;font-weight: bold;}
 
 .main-banner2{
   border-top: 1px solid #DCDCDC;
@@ -405,10 +404,7 @@ justify-content: space-between;
 align-items: center;
 padding-right: 24px;
 }
-.Read-much{
-width: 440px;
-padding-bottom: 11rem;
-}
+.Read-much{width: 440px;padding-bottom: 11rem;padding-top: 1.9rem;}
 
 @media only screen and (max-width:700px){
 .Thesis-Vid{
@@ -450,12 +446,17 @@ flex-grow: 1;
     cursor: auto;
     text-decoration: none;
   }
+
+  footer {
+  background-color: #dcdcdc82;
+}
   @media only screen and (max-width:700px){
     .footer-nav a{
       display: none;
     }
 
   }
+
 
 
   /*Min width*/
